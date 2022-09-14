@@ -1,0 +1,100 @@
+[
+    {
+        "order": "1",
+        "start": "8:30",
+        "end": "9:15",
+        "breakTime": "10",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "2",
+        "start": "9:25",
+        "end": "10:10",
+        "breakTime": "20",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "3",
+        "start": "10:30",
+        "end": "11:15",
+        "breakTime": "20",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "4",
+        "start": "11:35",
+        "end": "12:20",
+        "breakTime": "15",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "5",
+        "start": "12:35",
+        "end": "13:20",
+        "breakTime": "15",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "6",
+        "start": "13:35",
+        "end": "14:20",
+        "breakTime": "10",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "7",
+        "start": "13:35",
+        "end": "14:20",
+        "breakTime": "10",
+        "days": ["MON", "TUE"]
+    },
+    {
+        "order": "7",
+        "start": "14:30",
+        "end": "15:15",
+        "breakTime": "0",
+        "days": ["MON", "TUE", "WED", "THU", "FRI"]
+    },
+    {
+        "order": "1",
+        "start": "8:30",
+        "end": "9:15",
+        "breakTime": "10",
+        "days": ["SAT"]
+    },
+    {
+        "order": "2",
+        "start": "9:25",
+        "end": "10:10",
+        "breakTime": "20",
+        "days": ["SAT"]
+    },
+    {
+        "order": "3",
+        "start": "10:30",
+        "end": "11:15",
+        "breakTime": "20",
+        "days": ["SAT"]
+    },
+    {
+        "order": "4",
+        "start": "11:35",
+        "end": "12:20",
+        "breakTime": "10",
+        "days": ["SAT"]
+    },
+    {
+        "order": "5",
+        "start": "12:30",
+        "end": "13:15",
+        "breakTime": "10",
+        "days": ["SAT"]
+    },
+    {
+        "order": "6",
+        "start": "13:25",
+        "end": "14:10",
+        "breakTime": "0",
+        "days": ["SAT"]
+    }
+]
