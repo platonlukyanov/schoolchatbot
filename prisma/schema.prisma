@@ -11,6 +11,6 @@ datasource db {
 }
 
 model Chat {
-    telegramId Int @id @unique
+    telegramId BigInt @id @unique
     username String?
 }

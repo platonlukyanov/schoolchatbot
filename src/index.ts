@@ -22,7 +22,7 @@ export async function startBot() {
   const file = './src/data/school-calls-schedule.json'
   schoolCallsSchedule = await jsonfile.readFile(file);
   
-  const token = '5669136203:AAGij7Bm1yBiAqH-vAg81WUI7U69Wcj_Kf8';
+  const token = '5669136203:AAHwF4XQby2-vpT7tWf3gvotAxoPO1U8jCw';
   
   const bot = new TelegramBot(token, {polling: true});
   
@@ -30,12 +30,7 @@ export async function startBot() {
   bot.onText(/\/start/, async msg => {
     const chatId = msg.chat.id;
 
-    bot.sendSticker(chatId, 'CAACAgIAAxkBAAMDYyDodnuKsnKN1KkChLjRhyKV9sIAAlNzAAKezgsAAe9SCN0iEzDGKQQ') // will send 'Боброе Утро
-
-    if (await isChatAlreadyRequestedTheScheduleService(chatId)) {
-      bot.sendMessage(chatId, "Но, у вас уже есть уведомления. Ресурс ограничен, поэтому 🤷‍♂️ довольствуйтесь существующими")
-      return;
-    }
+    bot.sendSticker(chatId, 'CAACAgIAAxkBAAMDYyDodnuKsnKN1KkChLjRhyKV9sIAAlNzAAKezgsAAe9SCN0iEzDGKQQ') // will send 'Боброе Утр
 
     scheduleSchoolCallsMessages(schoolCallsSchedule, {
       sendMessage: message => {
