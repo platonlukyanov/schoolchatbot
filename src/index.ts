@@ -38,12 +38,6 @@ export async function startBot() {
       }
     });
 
-    await prisma.chat.create({
-      data: {
-        telegramId: chatId,
-        username: msg.chat.username
-      }
-    })
   });
 
   console.log('Bot is started')
